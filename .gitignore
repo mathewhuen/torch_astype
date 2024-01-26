@@ -1,0 +1,13 @@
+# compiled
+__pycache__
+
+# build
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+wheels/
+share/python-wheels/
+*.egg-info/
+*.egg

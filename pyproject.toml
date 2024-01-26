@@ -1,0 +1,27 @@
+[project]
+name = "torch_astype"
+version = "0.0.1"
+authors = [
+    { name="Mathew Huerta-Enochian", email="mathewhe@gmail.com" },
+]
+description = "Extend PyTorch with a NumPy-like .astype method"
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+requires-python = ">=3.9"
+classifiers = [
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3 :: Only",
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+]
+[project.optional-dependencies]
+dev = [
+  "pytest",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
