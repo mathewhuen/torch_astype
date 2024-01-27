@@ -18,6 +18,10 @@ classifiers = [
   "Intended Audience :: Developers",
   "Operating System :: OS Independent",
 ]
+dependencies = [
+  "torch>=1",
+]
+
 [project.optional-dependencies]
 dev = [
   "pytest",
